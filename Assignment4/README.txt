@@ -2,7 +2,7 @@ AUTHOR:
 - Dawson Sanders
 
 PURPOSE:
-- This program allows users to click and and add/remove pipes to the game window while in edit mode as well as make mario run and jump around on pipes. If a user clicks on a pipe that already exists then that pipe will be removed from the screen if you are in edit mode (press of 'e'). The user also will be able to scroll mario side to side using the left and right arrow keys. In additon, the user can press q/esc to exit the program, they can press s to save the world they created to a JSON file. 
+- This program allows users to click and add/remove pipes to the game window while in edit mode as well as make mario run and jump around on pipes. If a user clicks on a pipe that already exists then that pipe will be removed from the screen if you are in edit mode (press of 'e'). The user also will be able to scroll mario side to side using the left and right arrow keys. In additon, the user can press q/esc to exit the program, they can press s to save the world they created to a JSON file. 
 
 TASKS:
 - Clean up code from Assignment3 
