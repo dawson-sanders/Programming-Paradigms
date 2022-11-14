@@ -10,3 +10,4 @@ echo ""
 echo ""
 echo "Running..."
 java Assignment1
+rm -rf *.class
