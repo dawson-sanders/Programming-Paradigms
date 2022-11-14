@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dawson Sander's Page</title>
+        <style>
+            * {
+                background-color:hsl(120,100%,75%);
+            } 
+
+            li {
+                cursor: pointer;
+            }
+
+            img {
+                padding-right: 30px;
+                padding-bottom: 50px;
+                padding-left: 80px;
+            }
+
+            button {
+                background-color: white;
+            } 
+        </style>
+    </head>
+    <body>
+        <h1>Dawson Sander's Page</h1>
+        <h2> 
+            Welcome to the University of Arkansas's Trivia Madness Quiz!
+            To learn more about the University of Arkansas please click 
+            <a href="https://en.wikipedia.org/wiki/University_of_Arkansas" target="_blank">HERE.</a>
+            If you don't need to reference the information provided and are feeling lucky go ahead and try your luck now! 
+        </h2>
+        <br>
+        <h3>Question 1</h3>
+        <p>What is the official logo of the Arkansas Razorbacks?</p>
+        <img src="eagle.png" alt="Eagle image" width="250" height="180" onclick=displayQuestionOneSolution(1);>
+        <img src="razorback.png" alt="Razorback image" width="350" height="149" onclick=displayQuestionOneSolution(2);>
+        <img src="bronco.png" alt="Bronco image" width="270" height="270" onclick=displayQuestionOneSolution(3);> 
+        <br>
+        <span id='displaytext1'></span>
+        <h3>Question 2</h3>
+        <p>What year was the University of Arkansas founded?</p>
+        <ol type="A">
+            <li id="A" onclick=displayQuestionTwoSolution(A)>1871</li>
+            <li id="B" onclick=displayQuestionTwoSolution(B)>1776</li>
+            <li id="C" onclick=displayQuestionTwoSolution(C)>1912</li>
+        </ol>
+        <span id='displaytext2'></span>
+        <h3>Question 3</h3>
+        <p>What is the motto for the University of Arkansas?</p>
+        <ol type="A">
+            <li id="A" onclick=displayQuestionThreeSolution(A)>Expect Excellence From Ourselves and From Each Other Each Day</li>
+            <li id="B" onclick=displayQuestionThreeSolution(B)>You belong here</li>
+            <li id="C" onclick=displayQuestionThreeSolution(C)>Veritate duce progredi</li>
+        </ol>
+        <span id='displaytext3'></span>
+        <br>
+        <br>
+        <button type="reset" onclick="reset()">RESET</button>
+        <script type="text/javascript">
+            // Function to detect if user clicked on the right answer for question 1
+            function displayQuestionOneSolution(value) {
+                if (value === 1) 
+                    document.getElementById('displaytext1').innerHTML = 'INCORRECT. This is the Philadelphia Eagles logo';
+                if (value === 2) 
+                    document.getElementById('displaytext1').innerHTML = 'CORRECT! This is the Arkansas Razorbacks logo';
+                if (value === 3) 
+                    document.getElementById('displaytext1').innerHTML = 'INCORRECT. This is the Denver Broncos logo. BRONCOS COUNTRY LETS RIDE - Russel Wilson';
+            }
+
+            // Function to detect if user clicked on the right answer for question 2
+            function displayQuestionTwoSolution(letter) {
+                if (letter === A) 
+                    document.getElementById('displaytext2').innerHTML = 'CORRECT!';
+                if (letter === B) 
+                    document.getElementById('displaytext2').innerHTML = 'INCORRECT! This was the year the decleration of independence was signed';
+                if (letter === C) 
+                    document.getElementById('displaytext2').innerHTML = 'INCORRECT! However fun fact, the titanic set sail and sank this year';
+           }
+
+            // Function to detect if user clicked on the right answer for question 3
+            function displayQuestionThreeSolution(letter) {
+                if (letter === A) 
+                    document.getElementById('displaytext3').innerHTML = 'INCORRECT! This is the motto for Midlothian Heritage High School';
+                if (letter === B) 
+                    document.getElementById('displaytext3').innerHTML = 'INCORRECT! This is the motto for Walnut Grove Middle School';
+                if (letter === C) 
+                    document.getElementById('displaytext3').innerHTML = 'CORRECT! This is a latin phrase that translates to: "To Advance with Truth as our Leader"';
+           }
+
+            // Function to reset the quiz 
+            function reset() {
+                document.getElementById('displaytext1').innerHTML = '';
+                document.getElementById('displaytext2').innerHTML = '';
+                document.getElementById('displaytext3').innerHTML = '';
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </body>
+</html>
