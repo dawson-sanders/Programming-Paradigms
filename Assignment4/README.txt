@@ -31,4 +31,3 @@ if %errorlevel% neq 0 (
 	java Game	
 )
 
-The compiling process will be similar to MacOS and Linux, except use the command build.bat to compile and run instead.
