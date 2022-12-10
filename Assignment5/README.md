@@ -39,6 +39,10 @@ if %errorlevel% neq 0 ( <br />
 - Control key makes mario throw fireballs
 - F key makes mario throw fireballs
 
+## Demo
+
+
+https://user-images.githubusercontent.com/95600754/206875767-b83a9f6e-2c5d-4e01-a3d5-417f2231d1c9.mov
 
 
 
