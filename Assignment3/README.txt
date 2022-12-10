@@ -30,5 +30,3 @@ if %errorlevel% neq 0 (
 	echo Compiled correctly!  Running Game...
 	java Game	
 )
-
-The compiling process will be similar to MacOS and Linux, except use the command build.bat to compile and run instead.
