@@ -40,9 +40,4 @@ if %errorlevel% neq 0 ( <br />
 - F key makes mario throw fireballs
 
 ## Demo
-
-
-https://user-images.githubusercontent.com/95600754/206875767-b83a9f6e-2c5d-4e01-a3d5-417f2231d1c9.mov
-
-
-
+https://user-images.githubusercontent.com/95600754/206875827-06c206ee-2187-40fa-971f-eec8d4ed7865.mp4
