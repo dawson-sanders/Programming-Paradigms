@@ -40,4 +40,5 @@ if %errorlevel% neq 0 ( <br />
 - F key makes mario throw fireballs
 
 ## Demo
-https://user-images.githubusercontent.com/95600754/206875827-06c206ee-2187-40fa-971f-eec8d4ed7865.mp4
+![Mario-Java](https://user-images.githubusercontent.com/95600754/206875890-9cd08466-cfde-40d9-b8d3-d2d1eeac49eb.gif)
+
