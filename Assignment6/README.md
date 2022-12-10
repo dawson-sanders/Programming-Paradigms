@@ -12,7 +12,7 @@ This assignment was to practice getting familiar with HTML and JavaScript. This 
 - The user should be able to click the image/answer choice and get text feedback if the answer was right or wrong
 - At the end of the quiz make a reset button to reset the page to its original state
 
-## User Instructions to run program
+## User Instructions to Run Program
 - Download all files as a zip folder
 - Unzip the folder and click on the file named DawsonSanders.html file and take the quiz
 
