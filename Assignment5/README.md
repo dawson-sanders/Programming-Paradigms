@@ -9,13 +9,13 @@ In order to compile and run this program please download all files as a zip fold
 **Note:** The build.bash file will work with MacOS and Linux devices. If you have a windows device please change the build.bash file to a build.bat file and write these commands instead:
 
 ::@echo off
-javac Game.java View.java Controller.java Model.java Pipe.java Json.java Mario.java Goomba.java Fireball.java Sprite.java
-if %errorlevel% neq 0 (
-	echo There was an error; exiting now.	
-) else (
-	echo Compiled correctly!  Running Game...
-	java Game	
-)
+javac Game.java View.java Controller.java Model.java Pipe.java Json.java Mario.java Goomba.java Fireball.java Sprite.java <br />
+if %errorlevel% neq 0 ( <br />
+	echo There was an error; exiting now. <br />
+) else ( <br />
+	echo Compiled correctly!  Running Game... <br />
+	java Game <br />
+) <br />
 
 
 
